@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Homed - Professional hospital-level care at your home. Quality healthcare without the hassle of hospital visits.">
+    <title>Homed - Hospital Care at Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="32" height="32" rx="8" fill="#2563EB"/>
+                        <path d="M16 8V24M8 16H24" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                        <circle cx="16" cy="16" r="10" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <span class="logo-text">Homed</span>
+                </div>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#how-it-works">How It Works</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-cta">
+                    <a href="#book" class="btn btn-primary">Book Now</a>
+                </div>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hospital-Level Care <br>
+                        <span class="gradient-text">In the Comfort of Your Home</span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        Professional healthcare services delivered to your doorstep.
+                        Recover faster in a familiar environment with personalized attention.
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#book" class="btn btn-primary btn-large">Get Started</a>
+                        <a href="#how-it-works" class="btn btn-secondary btn-large">Learn More</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Healthcare Providers</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10k+</span>
+                            <span class="stat-label">Happy Patients</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4.8/5</span>
+                            <span class="stat-label">Average Rating</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-placeholder">
+                        <svg viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Healthcare illustration -->
+                            <rect width="600" height="500" rx="20" fill="#F0F9FF"/>
+                            <circle cx="300" cy="200" r="80" fill="#DBEAFE"/>
+                            <path d="M300 160V240M260 200H340" stroke="#2563EB" stroke-width="8" stroke-linecap="round"/>
+                            <rect x="150" y="320" width="300" height="120" rx="12" fill="#DBEAFE"/>
+                            <rect x="180" y="350" width="80" height="8" rx="4" fill="#2563EB"/>
+                            <rect x="180" y="370" width="120" height="8" rx="4" fill="#93C5FD"/>
+                            <rect x="180" y="390" width="100" height="8" rx="4" fill="#93C5FD"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem Section -->
+    <section class="problem-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">The Hospital Visit Challenge</h2>
+                <p class="section-subtitle">Traditional hospital visits come with multiple frustrations</p>
+            </div>
+            <div class="problems-grid">
+                <div class="problem-card">
+                    <div class="problem-icon">⏰</div>
+                    <h3>Time-Consuming</h3>
+                    <p>Long travel times and endless waiting periods waste your valuable time</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🦠</div>
+                    <h3>Infection Risk</h3>
+                    <p>Hospitals can expose patients to secondary infections and illnesses</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">😰</div>
+                    <h3>Stressful Environment</h3>
+                    <p>Unfamiliar surroundings can increase anxiety and slow recovery</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">👨‍👩‍👧</div>
+                    <h3>Family Disruption</h3>
+                    <p>Hospital visits disrupt normal family routines and daily life</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">💰</div>
+                    <h3>High Costs</h3>
+                    <p>Hospital stays and associated expenses can be financially draining</p>
+                </div>
+                <div class="problem-card">
+                    <div class="problem-icon">🚫</div>
+                    <h3>Limited Family Support</h3>
+                    <p>Restricted visiting hours limit family involvement in care</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section class="solution-section">
+        <div class="container">
+            <div class="solution-content">
+                <div class="solution-image">
+                    <div class="solution-image-placeholder">
+                        <svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="500" height="400" rx="16" fill="#F0FDF4"/>
+                            <path d="M150 200C150 200 200 150 250 200C300 250 350 200 350 200" stroke="#22C55E" stroke-width="6" stroke-linecap="round"/>
+                            <circle cx="250" cy="180" r="60" fill="#DCFCE7"/>
+                            <path d="M250 160L270 190L230 190Z" fill="#22C55E"/>
+                            <rect x="100" y="280" width="300" height="80" rx="12" fill="#DCFCE7"/>
+                        </svg>
+                    </div>
+                </div>
+                <div class="solution-text">
+                    <h2 class="section-title">Healthcare at Your Doorstep</h2>
+                    <p class="solution-description">
+                        Homed brings professional hospital-level care directly to your home,
+                        eliminating the hassles of traditional hospital visits while maintaining
+                        the highest standards of medical care.
+                    </p>
+                    <ul class="solution-benefits">
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Recover in a familiar, comfortable environment</span>
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Significantly reduced risk of secondary infections</span>
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Lower overall healthcare costs</span>
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Greater family involvement in recovery process</span>
+                        </li>
+                        <li>
+                            <svg class="check-icon" viewBox="0 0 20 20" fill="currentColor">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                            </svg>
+                            <span>Personalized attention and one-on-one care</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Comprehensive Home Healthcare Services</h2>
+                <p class="section-subtitle">Professional medical care tailored to your needs</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">👨‍⚕️</div>
+                    <h3>Doctor Consultations</h3>
+                    <p>Expert doctors visit your home for comprehensive medical consultations and follow-ups</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👩‍⚕️</div>
+                    <h3>Nursing Care</h3>
+                    <p>Professional nurses for wound care, IV therapy, injections, and daily medical assistance</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏃</div>
+                    <h3>Physiotherapy</h3>
+                    <p>Personalized physiotherapy sessions to aid recovery and improve mobility at home</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🔬</div>
+                    <h3>Diagnostic Services</h3>
+                    <p>Blood tests, ECG, and other diagnostic procedures conducted at your convenience</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🏥</div>
+                    <h3>Post-Operative Care</h3>
+                    <p>Specialized care after surgery to ensure smooth recovery in a comfortable environment</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">👴</div>
+                    <h3>Elder Care</h3>
+                    <p>Compassionate assistance and medical support for elderly family members</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">How Homed Works</h2>
+                <p class="section-subtitle">Get professional healthcare in three simple steps</p>
+            </div>
+            <div class="steps-container">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3>Book Your Service</h3>
+                        <p>Choose from our range of healthcare services and select your preferred date and time</p>
+                    </div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3>Get Matched</h3>
+                        <p>We assign a verified healthcare professional based on your needs and location</p>
+                    </div>
+                </div>
+                <div class="step-connector"></div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3>Receive Care</h3>
+                        <p>Our professional arrives at your home to provide high-quality medical care</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Homed?</h2>
+                <p class="section-subtitle">Experience the difference of home-based healthcare</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" fill="#DBEAFE"/>
+                            <path d="M18 24L22 28L30 20" stroke="#2563EB" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Verified Professionals</h3>
+                    <p>All our healthcare providers are thoroughly verified and highly qualified</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" fill="#DCFCE7"/>
+                            <path d="M24 14V24L30 27" stroke="#22C55E" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Flexible Scheduling</h3>
+                    <p>Book appointments at times that work best for you and your family</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" fill="#FEF3C7"/>
+                            <path d="M24 18V24M24 30H24.01" stroke="#F59E0B" stroke-width="3" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Transparent Pricing</h3>
+                    <p>Clear, upfront pricing with no hidden charges or surprise bills</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" fill="#FCE7F3"/>
+                            <path d="M24 14C24 14 30 18 30 24C30 27 27 30 24 30C21 30 18 27 18 24C18 18 24 14 24 14Z" stroke="#EC4899" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Insurance Support</h3>
+                    <p>We assist with insurance claims to make healthcare more affordable</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" fill="#E0E7FF"/>
+                            <rect x="18" y="18" width="12" height="14" rx="1" stroke="#6366F1" stroke-width="2"/>
+                            <path d="M21 22H27M21 26H27" stroke="#6366F1" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Digital Records</h3>
+                    <p>Access your medical history and care notes anytime through our platform</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <svg viewBox="0 0 48 48" fill="none">
+                            <circle cx="24" cy="24" r="20" fill="#FED7AA"/>
+                            <path d="M24 16V24L28 28" stroke="#EA580C" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Our team is always available to help with emergency care coordination</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Patients Say</h2>
+                <p class="section-subtitle">Real experiences from families we've served</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="rating">★★★★★</div>
+                    <p class="testimonial-text">
+                        "After my father's surgery, Homed's post-operative care was exceptional.
+                        The nurse was professional and caring. It made recovery so much easier for our family."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Priya Sharma</strong>
+                        <span>Mumbai</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="rating">★★★★★</div>
+                    <p class="testimonial-text">
+                        "The physiotherapy sessions at home have been a game-changer.
+                        No more traveling with my injury. The therapist was excellent and very accommodating."
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Rajesh Kumar</strong>
+                        <span>Delhi</span>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="rating">★★★★★</div>
+                    <p class="testimonial-text">
+                        "Getting blood tests done at home saved us so much time.
+                        The process was smooth, professional, and very convenient. Highly recommended!"
+                    </p>
+                    <div class="testimonial-author">
+                        <strong>Anita Desai</strong>
+                        <span>Bangalore</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="book" class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Ready to Experience Better Healthcare?</h2>
+                <p class="cta-subtitle">
+                    Join thousands of families who trust Homed for their healthcare needs
+                </p>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn btn-primary btn-large">Book a Service</a>
+                    <a href="#services" class="btn btn-secondary btn-large">Explore Services</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>Have questions? We're here to help you get started with home healthcare.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📧</div>
+                            <div>
+                                <strong>Email</strong>
+                                <p>contact@homed.care</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">📞</div>
+                            <div>
+                                <strong>Phone</strong>
+                                <p>+91-XXXX-XXXXXX</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-item-icon">⏰</div>
+                            <div>
+                                <strong>Hours</strong>
+                                <p>24/7 Emergency Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service" required>
+                                <option value="">Select a service</option>
+                                <option value="doctor">Doctor Consultation</option>
+                                <option value="nursing">Nursing Care</option>
+                                <option value="physio">Physiotherapy</option>
+                                <option value="diagnostic">Diagnostic Services</option>
+                                <option value="postop">Post-Operative Care</option>
+                                <option value="elder">Elder Care</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="32" height="32" rx="8" fill="#2563EB"/>
+                            <path d="M16 8V24M8 16H24" stroke="white" stroke-width="3" stroke-linecap="round"/>
+                            <circle cx="16" cy="16" r="10" stroke="white" stroke-width="2"/>
+                        </svg>
+                        <span>Homed</span>
+                    </div>
+                    <p class="footer-description">
+                        Professional hospital-level care in the comfort of your home.
+                        Quality healthcare made convenient.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">Doctor Consultations</a></li>
+                        <li><a href="#services">Nursing Care</a></li>
+                        <li><a href="#services">Physiotherapy</a></li>
+                        <li><a href="#services">Diagnostic Services</a></li>
+                        <li><a href="#services">Post-Operative Care</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#careers">Careers</a></li>
+                        <li><a href="#providers">For Providers</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Legal</h4>
+                    <ul>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#terms">Terms of Service</a></li>
+                        <li><a href="#compliance">HIPAA Compliance</a></li>
+                        <li><a href="#security">Security</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Homed. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Twitter">🐦</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="LinkedIn">💼</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
