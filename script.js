@@ -31,6 +31,94 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
+// Device Detection for App Download
+function detectDevice() {
+    const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    const iosDownload = document.getElementById('iosDownload');
+    const androidDownload = document.getElementById('androidDownload');
+    const deviceDetected = document.getElementById('deviceDetected');
+
+    // Check if elements exist
+    if (!iosDownload || !androidDownload || !deviceDetected) {
+        return;
+    }
+
+    // Detect iOS
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        androidDownload.classList.add('hide-btn');
+        deviceDetected.textContent = '📱 iOS device detected - Download from App Store';
+
+        // Update iOS download link (replace with your actual App Store URL)
+        iosDownload.href = 'https://apps.apple.com/app/homed';
+
+        // Track device detection
+        trackEvent('Device Detected', { platform: 'iOS' });
+        return 'iOS';
+    }
+
+    // Detect Android
+    if (/android/i.test(userAgent)) {
+        iosDownload.classList.add('hide-btn');
+        deviceDetected.textContent = '📱 Android device detected - Download from Google Play';
+
+        // Update Android download link (replace with your actual Google Play URL)
+        androidDownload.href = 'https://play.google.com/store/apps/details?id=com.homed.app';
+
+        // Track device detection
+        trackEvent('Device Detected', { platform: 'Android' });
+        return 'Android';
+    }
+
+    // Desktop - show both buttons
+    deviceDetected.textContent = '💻 Available on iOS and Android';
+
+    // Set default links for desktop users
+    iosDownload.href = 'https://apps.apple.com/app/homed';
+    androidDownload.href = 'https://play.google.com/store/apps/details?id=com.homed.app';
+
+    trackEvent('Device Detected', { platform: 'Desktop' });
+    return 'Desktop';
+}
+
+// Run device detection when DOM is loaded
+document.addEventListener('DOMContentLoaded', detectDevice);
+
+// Track app download button clicks
+document.addEventListener('DOMContentLoaded', () => {
+    const iosDownload = document.getElementById('iosDownload');
+    const androidDownload = document.getElementById('androidDownload');
+
+    if (iosDownload) {
+        iosDownload.addEventListener('click', (e) => {
+            // For demo purposes, prevent default navigation
+            // Remove e.preventDefault() when you have actual app store links
+            e.preventDefault();
+
+            trackEvent('App Download Click', {
+                platform: 'iOS',
+                url: iosDownload.href
+            });
+
+            alert('iOS App Store link - Replace with your actual App Store URL in script.js');
+        });
+    }
+
+    if (androidDownload) {
+        androidDownload.addEventListener('click', (e) => {
+            // For demo purposes, prevent default navigation
+            // Remove e.preventDefault() when you have actual app store links
+            e.preventDefault();
+
+            trackEvent('App Download Click', {
+                platform: 'Android',
+                url: androidDownload.href
+            });
+
+            alert('Google Play Store link - Replace with your actual Google Play URL in script.js');
+        });
+    }
+});
+
 // Navbar background on scroll
 const navbar = document.querySelector('.navbar');
 let lastScroll = 0;

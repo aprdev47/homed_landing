@@ -73,6 +73,14 @@ landing/
 - 5-star ratings
 - Real-world use cases
 
+#### App Download Section
+- Smart device detection (iOS, Android, Desktop)
+- Dynamic display of appropriate download buttons
+- App Store and Google Play integration
+- Feature highlights for mobile app
+- Animated phone mockup illustration
+- Responsive design for all devices
+
 #### Call-to-Action Section
 - Bold, conversion-focused section
 - Multiple action buttons
@@ -94,6 +102,7 @@ landing/
 
 - **Mobile Menu Toggle**: Smooth animation for mobile navigation
 - **Smooth Scrolling**: Anchor links scroll smoothly to sections
+- **Device Detection**: Automatically detects iOS, Android, or Desktop and shows appropriate app download buttons
 - **Form Handling**: Contact form with validation and submission handling
 - **Scroll Animations**: Elements fade in as they enter viewport
 - **Hover Effects**: Interactive cards and buttons
@@ -216,7 +225,55 @@ The current landing page uses SVG placeholders. To add real images:
      - Service icons: 128x128px
      - Testimonial photos: 80x80px
 
-### 4. Form Integration
+### 4. App Store Links Configuration
+
+The app download section includes smart device detection and download buttons. To update with your actual app store links:
+
+#### Update App Store URLs in script.js
+
+Find the `detectDevice()` function (around line 36-80) and replace the placeholder URLs:
+
+```javascript
+// For iOS
+iosDownload.href = 'https://apps.apple.com/app/your-app-id';
+
+// For Android
+androidDownload.href = 'https://play.google.com/store/apps/details?id=com.yourcompany.yourapp';
+```
+
+#### How Device Detection Works
+
+The landing page automatically detects the user's device:
+- **iOS devices** (iPhone/iPad): Shows only the App Store button
+- **Android devices**: Shows only the Google Play button
+- **Desktop/Other**: Shows both buttons
+
+#### Testing Device Detection
+
+To test the device detection:
+1. Open the page on different devices (iOS, Android, Desktop)
+2. Or use browser developer tools to emulate different devices
+3. Check the console for device detection events
+
+#### Customizing App Features List
+
+Update the features in the app download section (lines 395-422 in index.html):
+```html
+<div class="app-feature">
+    <svg class="feature-check">...</svg>
+    <span>Your custom feature</span>
+</div>
+```
+
+#### Removing Demo Alerts
+
+The download buttons currently show alerts for demo purposes. To enable actual downloads:
+
+1. Remove the `e.preventDefault()` calls in script.js (lines 75 and 89)
+2. Remove the `alert()` statements
+3. The buttons will then navigate to your actual app store URLs
+
+### 5. Form Integration
 
 The contact form currently logs data to console. To integrate with a backend:
 
@@ -495,4 +552,19 @@ This landing page template is created for Homed. All rights reserved.
 ---
 
 **Last Updated**: January 2026
-**Version**: 1.0.0
+**Version**: 1.1.0
+
+## Changelog
+
+### Version 1.1.0 (January 2026)
+- Added app download section with smart device detection
+- iOS and Android download buttons with automatic platform detection
+- Responsive phone mockup illustration
+- Device-specific messaging and button display
+- Updated documentation for app store link configuration
+
+### Version 1.0.0 (January 2026)
+- Initial release with all core sections
+- Fully responsive design
+- Contact form and navigation
+- Services, benefits, and testimonials sections
