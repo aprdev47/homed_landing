@@ -61,6 +61,11 @@ body {
     color: var(--primary-color);
 }
 
+.logo-image {
+    height: 40px;
+    width: auto;
+}
+
 .logo-text {
     font-size: 24px;
     font-weight: 700;
@@ -822,6 +827,11 @@ section {
     font-size: 24px;
     font-weight: 700;
     margin-bottom: 16px;
+}
+
+.footer-logo .logo-image {
+    height: 50px;
+    width: auto;
 }
 
 .footer-description {

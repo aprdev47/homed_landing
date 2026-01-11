@@ -1,0 +1,18 @@
+<svg width="438" height="230" viewBox="0 0 438 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Rectangle -->
+  <rect width="438" height="230" fill="#321e60"/>
+
+  <!-- Gradient Border Frame -->
+  <defs>
+    <linearGradient id="borderGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#eb419d;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6995fb;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Top border -->
+  <rect x="86" y="76" width="309" height="6" fill="url(#borderGradient)"/>
+
+  <!-- Text "homed" -->
+  <text x="75" y="175" font-family="Arial, sans-serif" font-size="90" font-weight="700" fill="white" letter-spacing="-2">homed</text>
+</svg>
