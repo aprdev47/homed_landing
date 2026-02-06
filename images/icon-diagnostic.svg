@@ -1,0 +1,14 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Microscope -->
+  <path d="M26 18L26 32" stroke="#6995fb" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 18L30 18" stroke="#6995fb" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="26" cy="14" r="4" stroke="#6995fb" stroke-width="2"/>
+  <path d="M26 32L32 42" stroke="#6995fb" stroke-width="3" stroke-linecap="round"/>
+  <path d="M18 42L40 42" stroke="#6995fb" stroke-width="3" stroke-linecap="round"/>
+  <rect x="20" y="42" width="16" height="8" rx="2" stroke="#6995fb" stroke-width="3"/>
+  <!-- Test tubes -->
+  <rect x="42" y="20" width="6" height="20" rx="3" stroke="#6995fb" stroke-width="2.5"/>
+  <rect x="52" y="24" width="6" height="16" rx="3" stroke="#6995fb" stroke-width="2.5"/>
+  <line x1="42" y1="30" x2="48" y2="30" stroke="#6995fb" stroke-width="2"/>
+  <line x1="52" y1="32" x2="58" y2="32" stroke="#6995fb" stroke-width="2"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Family of three -->
+  <!-- Adult 1 -->
+  <circle cx="20" cy="18" r="6" stroke="#eb419d" stroke-width="2.5"/>
+  <path d="M12 38C12 32 15 28 20 28C25 28 28 32 28 38V48H12V38Z" stroke="#eb419d" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Adult 2 -->
+  <circle cx="44" cy="18" r="6" stroke="#eb419d" stroke-width="2.5"/>
+  <path d="M36 38C36 32 39 28 44 28C49 28 52 32 52 38V48H36V38Z" stroke="#eb419d" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- Child -->
+  <circle cx="32" cy="28" r="5" stroke="#eb419d" stroke-width="2.5"/>
+  <path d="M25 44C25 40 28 36 32 36C36 36 39 40 39 44V52H25V44Z" stroke="#eb419d" stroke-width="2.5" stroke-linejoin="round"/>
+</svg>

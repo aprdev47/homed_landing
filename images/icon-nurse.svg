@@ -1,0 +1,14 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nurse with cap -->
+  <circle cx="32" cy="20" r="10" stroke="#6995fb" stroke-width="3"/>
+  <path d="M18 44C18 36 24 32 32 32C40 32 46 36 46 44V54H18V44Z" stroke="#6995fb" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Nurse cap with cross -->
+  <path d="M22 14H42V18H22V14Z" stroke="#6995fb" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M30 14V10M34 14V10" stroke="#6995fb" stroke-width="3" stroke-linecap="round"/>
+  <!-- Medical cross on cap -->
+  <path d="M32 15V17M31 16H33" stroke="#6995fb" stroke-width="2" stroke-linecap="round"/>
+  <!-- Syringe -->
+  <rect x="48" y="40" width="8" height="16" rx="1" stroke="#6995fb" stroke-width="2"/>
+  <rect x="50" y="38" width="4" height="3" fill="#6995fb"/>
+  <line x1="52" y1="44" x2="52" y2="52" stroke="#6995fb" stroke-width="1.5"/>
+</svg>

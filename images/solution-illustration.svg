@@ -1,0 +1,65 @@
+<svg viewBox="0 0 500 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="500" height="400" rx="16" fill="#F0FDF4"/>
+
+  <!-- Couch/Sofa -->
+  <rect x="100" y="250" width="300" height="100" rx="12" fill="#DCFCE7"/>
+  <rect x="90" y="270" width="40" height="80" rx="8" fill="#BBF7D0"/>
+  <rect x="370" y="270" width="40" height="80" rx="8" fill="#BBF7D0"/>
+
+  <!-- Patient sitting on couch -->
+  <circle cx="200" cy="240" r="25" fill="#FDE68A"/>
+  <ellipse cx="200" cy="295" rx="35" ry="45" fill="#60A5FA"/>
+
+  <!-- Family member standing -->
+  <circle cx="310" cy="230" r="22" fill="#FDE68A"/>
+  <ellipse cx="310" cy="280" rx="30" ry="40" fill="#A78BFA"/>
+
+  <!-- Nurse/Healthcare provider -->
+  <circle cx="250" cy="215" r="23" fill="#FDE68A"/>
+  <ellipse cx="250" cy="270" rx="32" ry="43" fill="#6995fb"/>
+  <rect x="235" y="260" width="30" height="30" fill="#DCFCE7"/>
+
+  <!-- Medical equipment - IV stand -->
+  <line x1="140" y1="170" x2="140" y2="270" stroke="#6B7280" stroke-width="4"/>
+  <circle cx="140" cy="165" r="8" fill="#6B7280"/>
+  <rect x="125" y="270" width="30" height="8" rx="4" fill="#6B7280"/>
+
+  <!-- IV bag -->
+  <path d="M130 180C130 175 135 170 140 170C145 170 150 175 150 180V200C150 205 145 210 140 210C135 210 130 205 130 200V180Z" fill="#93C5FD"/>
+
+  <!-- Medical chart/tablet -->
+  <rect x="280" y="200" width="30" height="40" rx="3" fill="#1F2937"/>
+  <rect x="283" y="205" width="24" height="30" fill="#60A5FA"/>
+
+  <!-- Health monitoring device -->
+  <rect x="350" y="240" width="35" height="25" rx="4" fill="#1F2937"/>
+  <circle cx="367" cy="252" r="6" fill="#6995fb"/>
+  <path d="M355 252H360L363 248L366 256L369 252H379" stroke="#6995fb" stroke-width="2" fill="none"/>
+
+  <!-- Decorative plants -->
+  <ellipse cx="430" cy="340" rx="25" ry="15" fill="#BBF7D0"/>
+  <path d="M420 310Q425 295 430 280Q435 295 440 310" stroke="#6995fb" stroke-width="3" fill="none"/>
+  <path d="M430 280L425 290M430 280L435 290" stroke="#6995fb" stroke-width="2"/>
+
+  <!-- Window with sunshine -->
+  <rect x="380" y="80" width="90" height="100" rx="8" fill="#DBEAFE" opacity="0.5"/>
+  <line x1="380" y1="130" x2="470" y2="130" stroke="#60A5FA" stroke-width="3"/>
+  <line x1="425" y1="80" x2="425" y2="180" stroke="#60A5FA" stroke-width="3"/>
+
+  <!-- Sun rays -->
+  <circle cx="425" cy="110" r="20" fill="#FCD34D"/>
+  <line x1="425" y1="75" x2="425" y2="85" stroke="#FCD34D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="450" y1="85" x2="445" y2="95" stroke="#FCD34D" stroke-width="3" stroke-linecap="round"/>
+  <line x1="460" y1="110" x2="450" y2="110" stroke="#FCD34D" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Heart symbol -->
+  <g transform="translate(50, 100)">
+    <path d="M25 40L15 30Q10 25 10 18Q10 10 17 10Q22 10 25 15Q28 10 33 10Q40 10 40 18Q40 25 35 30L25 40Z" fill="#EF4444"/>
+    <path d="M20 25L23 28L30 20" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- Care quality badge -->
+  <circle cx="450" cy="340" r="30" fill="#6995fb"/>
+  <path d="M440 340L445 345L460 330" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

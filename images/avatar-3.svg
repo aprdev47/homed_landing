@@ -1,0 +1,28 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="50" cy="50" r="50" fill="#E0E7FF"/>
+
+  <!-- Face -->
+  <circle cx="50" cy="45" r="18" fill="#FDE68A"/>
+
+  <!-- Hair with bun -->
+  <circle cx="50" cy="25" r="8" fill="#1F2937"/>
+  <path d="M35 38C35 30 42 24 50 24C58 24 65 30 65 38V42H35V38Z" fill="#1F2937"/>
+
+  <!-- Eyes -->
+  <circle cx="43" cy="42" r="2" fill="#1F2937"/>
+  <circle cx="57" cy="42" r="2" fill="#1F2937"/>
+
+  <!-- Smile -->
+  <path d="M43 50Q50 55 57 50" stroke="#1F2937" stroke-width="2" stroke-linecap="round" fill="none"/>
+
+  <!-- Eyelashes -->
+  <line x1="43" y1="38" x2="43" y2="36" stroke="#1F2937" stroke-width="1.5" stroke-linecap="round"/>
+  <line x1="57" y1="38" x2="57" y2="36" stroke="#1F2937" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Body/Clothing -->
+  <path d="M32 63C32 58 40 55 50 55C60 55 68 58 68 63V80C68 85 63 90 50 90C37 90 32 85 32 80V63Z" fill="#A78BFA"/>
+
+  <!-- Necklace -->
+  <ellipse cx="50" cy="60" rx="8" ry="3" fill="#FCD34D"/>
+</svg>
