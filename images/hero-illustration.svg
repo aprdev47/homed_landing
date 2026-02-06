@@ -1,0 +1,48 @@
+<svg viewBox="0 0 600 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="500" rx="20" fill="#F0F9FF"/>
+
+  <!-- House illustration -->
+  <path d="M150 250L300 150L450 250V420C450 430 445 435 435 435H165C155 435 150 430 150 420V250Z" fill="#DBEAFE"/>
+  <path d="M150 250L300 150L450 250" stroke="#6995fb" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- Door -->
+  <rect x="260" y="350" width="80" height="85" rx="8" fill="#6995fb"/>
+  <circle cx="320" cy="395" r="5" fill="#DBEAFE"/>
+
+  <!-- Windows -->
+  <rect x="190" y="280" width="60" height="60" rx="6" fill="#93C5FD"/>
+  <line x1="190" y1="310" x2="250" y2="310" stroke="#6995fb" stroke-width="3"/>
+  <line x1="220" y1="280" x2="220" y2="340" stroke="#6995fb" stroke-width="3"/>
+
+  <rect x="350" y="280" width="60" height="60" rx="6" fill="#93C5FD"/>
+  <line x1="350" y1="310" x2="410" y2="310" stroke="#6995fb" stroke-width="3"/>
+  <line x1="380" y1="280" x2="380" y2="340" stroke="#6995fb" stroke-width="3"/>
+
+  <!-- Medical cross badge -->
+  <circle cx="480" cy="180" r="50" fill="#eb419d"/>
+  <path d="M480 155V205M455 180H505" stroke="white" stroke-width="10" stroke-linecap="round"/>
+
+  <!-- Doctor figure -->
+  <circle cx="120" cy="350" r="35" fill="#DBEAFE"/>
+  <circle cx="120" cy="340" r="20" fill="#FDE68A"/>
+  <path d="M85 385C85 370 100 360 120 360C140 360 155 370 155 385V430H85V385Z" fill="#6995fb"/>
+  <rect x="95" y="395" width="50" height="35" fill="#60A5FA"/>
+
+  <!-- Medical bag -->
+  <rect x="170" y="380" width="40" height="30" rx="4" fill="#EF4444"/>
+  <rect x="185" y="375" width="10" height="10" fill="#EF4444"/>
+  <path d="M180 390H200M190 385V395" stroke="white" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Decorative elements -->
+  <circle cx="500" cy="350" r="8" fill="#93C5FD" opacity="0.5"/>
+  <circle cx="530" cy="380" r="12" fill="#93C5FD" opacity="0.3"/>
+  <circle cx="70" cy="200" r="10" fill="#93C5FD" opacity="0.4"/>
+  <circle cx="90" cy="230" r="6" fill="#93C5FD" opacity="0.3"/>
+
+  <!-- Health monitoring icons -->
+  <g transform="translate(480, 300)">
+    <circle r="25" fill="#DBEAFE"/>
+    <path d="M-8 0L-3 5L8 -8" stroke="#6995fb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

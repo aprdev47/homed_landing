@@ -1,0 +1,12 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Clock face -->
+  <circle cx="32" cy="32" r="24" stroke="#eb419d" stroke-width="3"/>
+  <!-- Clock hands -->
+  <path d="M32 32V16" stroke="#eb419d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M32 32L44 32" stroke="#eb419d" stroke-width="3" stroke-linecap="round"/>
+  <!-- Clock tick marks -->
+  <line x1="32" y1="11" x2="32" y2="14" stroke="#eb419d" stroke-width="2"/>
+  <line x1="32" y1="50" x2="32" y2="53" stroke="#eb419d" stroke-width="2"/>
+  <line x1="53" y1="32" x2="50" y2="32" stroke="#eb419d" stroke-width="2"/>
+  <line x1="14" y1="32" x2="11" y2="32" stroke="#eb419d" stroke-width="2"/>
+</svg>

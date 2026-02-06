@@ -1,0 +1,12 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Stressed face -->
+  <circle cx="32" cy="32" r="22" stroke="#eb419d" stroke-width="3"/>
+  <!-- Worried eyes -->
+  <path d="M22 28C22 28 24 26 26 26C28 26 30 28 30 28" stroke="#eb419d" stroke-width="2.5" stroke-linecap="round"/>
+  <path d="M38 28C38 26 40 24 42 24C44 24 46 26 46 28" stroke="#eb419d" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Worried mouth -->
+  <path d="M24 42C24 42 28 38 32 38C36 38 40 42 40 42" stroke="#eb419d" stroke-width="3" stroke-linecap="round"/>
+  <!-- Sweat drops -->
+  <path d="M48 16C48 16 48 12 50 12C52 12 52 14 52 16C52 18 50 20 48 20C46 20 46 18 46 18" stroke="#eb419d" stroke-width="2" stroke-linecap="round"/>
+  <circle cx="50" cy="14" r="2" fill="#eb419d"/>
+</svg>

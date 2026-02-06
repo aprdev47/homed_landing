@@ -1,0 +1,9 @@
+<svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Person blocked -->
+  <circle cx="32" cy="22" r="8" stroke="#eb419d" stroke-width="3"/>
+  <path d="M20 44C20 38 25 34 32 34C39 34 44 38 44 44V52H20V44Z" stroke="#eb419d" stroke-width="3" stroke-linejoin="round"/>
+
+  <!-- Prohibition symbol (circle with slash) -->
+  <circle cx="32" cy="32" r="26" stroke="#eb419d" stroke-width="3"/>
+  <line x1="12" y1="52" x2="52" y2="12" stroke="#eb419d" stroke-width="3" stroke-linecap="round"/>
+</svg>
