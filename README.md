@@ -178,18 +178,21 @@ Then visit `http://localhost:8000`
 Update CSS variables in `styles.css` (lines 9-17):
 ```css
 :root {
-    --primary-color: #2563EB;        /* Main brand color */
-    --primary-dark: #1E40AF;         /* Darker shade */
-    --primary-light: #3B82F6;        /* Lighter shade */
-    --secondary-color: #10B981;      /* Accent color */
+    --primary-color: #6995fb;        /* Blue - Main brand color */
+    --primary-dark: #321c60;         /* Purple - Dark shade */
+    --primary-light: #8baeff;        /* Light blue */
+    --secondary-color: #eb419d;      /* Pink - Accent color */
+    --purple: #321c60;
+    --pink: #eb419d;
+    --blue: #6995fb;
     /* ... other variables ... */
 }
 ```
 
 #### Typography
-- Font family is set to 'Inter' (imported from Google Fonts)
-- Update font imports in the `<head>` section of index.html
-- Adjust font sizes in CSS variables or specific selectors
+- Font family is set to Arial (system font)
+- No external font imports needed
+- Adjust font sizes in CSS as needed
 
 #### Spacing and Layout
 - Adjust container max-width (line 25 in styles.css)
